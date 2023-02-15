@@ -102,7 +102,7 @@ Let the number of CPUs be 32 per node and each node has 2 GPUs. I want to submit
 
 cd $PBS_O_WORKDIR
 module purge
-module load gcc/9.3 cuda/11.2 gromacs/2020.5
+module load gromacs2022
 
 export OMP_NUM_THREADS=32
 
@@ -119,7 +119,7 @@ Let the number of CPUs be 32 per node and each node has 2 GPUs. I want 4 simulat
 
 cd $PBS_O_WORKDIR
 module purge
-module load gcc/9.3 cuda/11.2 gromacs/2020.5
+module load gromacs2022
 
 export OMP_NUM_THREADS=8
 
