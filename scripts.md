@@ -12,6 +12,15 @@ Here the details of the job scripts required for all HPCs have been compiled. To
 cd /path/to/job/folder
 module load /required/modules
 ```
+#### queue name: batch1
+```#!/bin/bash
+#PBS -l nodes=1:ppn=32
+#PBS -N po_start_s1
+#PBS -q batch1
+
+cd /path/to/job/folder
+module load /required/modules
+```
 #### queue name: sql
 ```#!/bin/bash
 #PBS -l nodes=1:ppn=64
