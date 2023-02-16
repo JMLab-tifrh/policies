@@ -36,7 +36,7 @@ This is the documentation for job submission policies for the HPCs exclusive to 
 ## Details of maximum usage limit for each HPC:
 | HPC name   | maximum submission limit per queue  |
 |:----------:|-------------------------------------|
-|JMC         | to be updated                       |
+|JMC         |_sql_: 2 running (10 days maximum runtime)<br>_batch_: 5 running (2 days runtime)<br>_batch1_: 2 running on jm4 and jm5 (10 days runtime)|
 |ryzencluster|_ryzen9-3080_: 4 running + 1 queue = 5<br>_ryzen7-3080_: 1 running + 1 queue = 2<br>_ryzen9-2080_: 2 running + 1 queue = 3|
 |ampere      |_ryzen_: 9 running + 2 queue = 11<br>epyc: 1/2 running + 1 queue=2/3|
 |karplus     |_workq_: 8 running + 2 queue = 10|
