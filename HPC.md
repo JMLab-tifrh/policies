@@ -6,7 +6,7 @@ This is the documentation for job submission policies for the HPCs exclusive to 
 | name | CPU model(s) | Num of CPUs per node | GPU model(s) | Num of GPUs per node | RAM per node (G)|
 |:----:|:------------:|:--------------------:|:------------:|:--------------------:|:-----------:|
 | JMC  | Intel(R) Xeon(R) CPU E5-2667v4 @ 3.20GHz <br>Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz  | 32 or 64| Mixture of GTX 1080 and RTX 3080 | 2 GTX 1080s or 1 RTX 3080 | 64 |
-| ryzencluster | AMD Ryzen 9 3900X 12-Core Processor <br>AMD Ryzen 7 3800X 8-Core Processor | 24 or 16 | RTX 2080 or RTX 3080 | 1 RTX series GPU | 32 |
+| ryzencluster | AMD Ryzen 9 3900X 12-Core Processor <br>AMD Ryzen 7 3800X 8-Core Processor | 24 or 16 | RTX 3080 | 1 RTX series GPU | 32 |
 | ampere | AMD Ryzen Threadripper PRO 3955WX 16-Cores<br>AMD EPYC 7502P 32-Core Processor| 32 or 64 | RTX 3080 | 2 RTX 3080 | 32 or 64 |
 | karplus | AMD Ryzen 9 5950X 16-Core Processor | 32 | RTX 3080 | 1 RTX 3080 | 32 |
 
