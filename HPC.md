@@ -24,7 +24,7 @@ This is the documentation for job submission policies for the HPCs exclusive to 
 ## general submission rules
 <ol>
   <li> Always allocate the complete node for a single job submission. Since all simulations are always run on multiple seeds, multiple simulations, if needed, are to be run inside a single job script. An example has been provided later.</li>
-  <li> Except, JMC, all other clusters have a maximum walltime (runtime) of 5 days (120 hrs). </li> 
+  <li> Except, JMC, all other clusters have a maximum walltime (runtime) of 7 days (168 hrs). </li> 
   <li> It is advised to optimize the number of CPUs needed per simulation prior to longer runs. This ensures optimal usage of the computers. </li>
   <li> It is requested that users should output their trajectories in .xtc formats, unless explicitly needed, to reduce the storage space usage. Optionally, one should also output only the particles/atoms/groups which they would require. This would further reduce the storage space needed. </li>
   <li> Take regular backups and do not use the HPC's storage for storing data. The HPCs have limited storage space and its complete utilization is highly likely to cause a system crash. </li>
